@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Hollato';
+    src: url(../font/HollatoPersonalUse/Hollato.ttf);
+}
+body{
+    background-image: url(../img/heartBg.png);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.introduction{
+background-color: #fbf2d5;
+width: 400px;
+height: auto;
+display: block;
+padding-bottom: 50px;
+padding-top: 50px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: 20%;
+margin-top: 20px;
+text-align: center;
+}
+.introduction:hover{
+    background-color: darkgray;
+}
+h1{
+    color:#ffb5b5;
+    margin-bottom: 20px;
+    font-family: 'Hollato', sans-serif;
+    font-size: 48px;
+}
+h2{
+    color: hsl(249, 96%, 34%);
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+h2:hover{
+    color: fuchsia;
+}
+h3{
+    color: #5c5470;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+h3:hover{
+    color: rgb(228, 60, 14);  
+}
+h4{
+    color: hsl(204, 70%, 53%);
+    font-size: 22px;
+}
+h4:hover{
+    color: darkorchid;
+}
